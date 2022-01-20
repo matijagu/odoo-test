@@ -1,11 +1,13 @@
-# -*- coding: utf-8 -*-
+#-*- coding: utf-8 -*-
 
-# from odoo import models, fields, api
+from odoo import models, fields, api
 
 
-# class birthday(models.Model):
-#     _name = 'birthday.birthday'
-#     _description = 'birthday.birthday'
+class de_parner_test(models.Model):
+     _inherit = 'res.partner'
+    
+     father_name = fields.Char('Father Name')
+#     _description = 'de_parner_test.de_parner_test'
 
 #     name = fields.Char()
 #     value = fields.Integer()
