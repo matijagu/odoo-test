@@ -1,6 +1,7 @@
 <odoo>
   <data>
-          <record model="ir.actions.act_window" id="course_list_action">
+      <menuitem name="Custom Menu" id="custom_menu_without_parent"/>
+        <record model="ir.actions.act_window" id="course_list_action">
         <field name="name">Courses</field>
         <field name="res_model">openacademy.course</field>
         <field name="view_mode">tree,form</field>
@@ -54,9 +55,9 @@
 -->
 
     <!-- Top menu item -->
-<!--
+
     <menuitem name="openacademy" id="openacademy.menu_root"/>
--->
+
     <!-- menu categories -->
 <!--
     <menuitem name="Menu 1" id="openacademy.menu_1" parent="openacademy.menu_root"/>
